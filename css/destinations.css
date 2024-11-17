@@ -1,0 +1,118 @@
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}   
+
+.destination-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.destination-card h3 {
+    font-size: 1.5rem;
+    margin: 16px;
+    color: #333;
+}
+
+.destination-card p {
+    font-size: 1rem;
+    margin: 0 16px 16px 16px;
+    color: #666;
+}  
+
+
+.destination-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.destination-card:hover img {
+    transform: scale(1.1);
+}  
+
+
+
+.featured-experiences {
+    padding: 50px 20px;
+    background-color: #eef6f9;
+    text-align: center;
+}
+
+.featured-experiences h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.featured-experiences p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.experiences-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.experience-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experience-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 20px 10px;
+    color: #333;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    margin: 0 20px 15px;
+    color: #555;
+} 
+
+.world-map iframe {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.world-map {
+    text-align: center;
+    padding: 2rem 1rem;
+} 
