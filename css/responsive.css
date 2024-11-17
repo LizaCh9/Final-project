@@ -1,0 +1,142 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .hero-text {
+        padding: 10px;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .destination-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .destination-item {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .testimonials {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .testimonial-item {
+        margin-bottom: 15px;
+    }
+
+    .newsletter form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter button {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+
+    .hero-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+    }
+
+    .hero-text .btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .service-card h3 {
+        font-size: 1rem;
+    }
+
+    .destination-grid {
+        gap: 10px;
+    }
+
+    .testimonials h2 {
+        font-size: 1.5rem;
+    }
+
+    .testimonial-item p {
+        font-size: 0.9rem;
+    }
+
+    .footer-container {
+        padding: 15px;
+    }
+
+    .footer-links ul {
+        padding: 0;
+    }
+
+    .footer-social img {
+        width: 30px;
+        height: 30px;
+    }
+}
