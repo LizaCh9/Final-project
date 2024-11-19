@@ -1,4 +1,5 @@
 .destination-cards {
+    cursor: pointer;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -27,13 +28,13 @@
 }
 
 .destination-card h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     margin: 16px;
     color: #333;
 }
 
 .destination-card p {
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0 16px 16px 16px;
     color: #666;
 }  
@@ -57,13 +58,13 @@
 }
 
 .featured-experiences h2 {
-    font-size: 2rem;
+    font-size: 32px;
     margin-bottom: 10px;
     color: #333;
 }
 
 .featured-experiences p {
-    font-size: 1.2rem;
+    font-size: 19px;
     margin-bottom: 30px;
     color: #555;
 }
@@ -77,6 +78,7 @@
 }
 
 .experience-card {
+    cursor: pointer;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -91,13 +93,13 @@
 }
 
 .experience-card h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     margin: 15px 20px 10px;
     color: #333;
 }
 
 .experience-card p {
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0 20px 15px;
     color: #555;
 } 
@@ -114,5 +116,5 @@
 
 .world-map {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 32px 16px;
 } 
